@@ -17,15 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Открыть браузер'
 WebUI.openBrowser('https://erpbi.hssys.ru/login')
 
+'Ввести логин'
 WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), '1')
 
+'Ввести пароль'
 WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), '1')
 
+'Нажать кнопку "Войти"'
 WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))
 
+'Проверить текст ошибки на соответствие'
 WebUI.verifyElementText(findTestObject('Авторизация/Page_ERPBI/div_Error'), 'Error: Неправильный логин или пароль')
 
+'Закрыть браузер'
 WebUI.closeBrowser()
 

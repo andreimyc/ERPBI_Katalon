@@ -3,12 +3,18 @@
    <description></description>
    <name>div_</name>
    <tag></tag>
-   <elementGuidId>e52aa1ad-26b6-4c88-b5c5-3ed120d4c78c</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>5d82a1c3-03bc-44e3-aded-cb61bbe81142</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/header/div/div</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-toolbar__title.my-title</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -17,14 +23,6 @@
     ' or . = '
       ЛИДЕР
     ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.v-toolbar__title.my-title</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e94bdf16-3ed0-4977-b0b1-e78eb98c29dd</webElementGuid>
+      <webElementGuid>5fbe9f56-b78f-4d96-b872-6f01e644593b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-toolbar__title my-title</value>
-      <webElementGuid>9d309124-15d9-4b64-83c3-a3bc00267def</webElementGuid>
+      <webElementGuid>aad54a4b-3c71-4b63-8037-6a3ff490aba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +51,7 @@
       <value>
       ЛИДЕР
     </value>
-      <webElementGuid>b2f24f95-e9b4-4963-9d96-d7290976acb7</webElementGuid>
+      <webElementGuid>e5a67370-1683-4947-bcbb-1db3c425a8a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;v-application--wrap&quot;]/header[@class=&quot;my-header print-hide v-sheet v-sheet--outlined theme--light v-toolbar v-toolbar--dense v-toolbar--flat v-app-bar v-app-bar--fixed&quot;]/div[@class=&quot;v-toolbar__content&quot;]/div[@class=&quot;v-toolbar__title my-title&quot;]</value>
-      <webElementGuid>5982ba80-e647-4407-b5b2-5b641fa8fa44</webElementGuid>
+      <webElementGuid>a1015d38-1b80-42c5-95a4-d85ec004da42</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/header/div/div</value>
-      <webElementGuid>48a711a0-a296-4a7a-aa2f-0ff3331c60a2</webElementGuid>
+      <webElementGuid>6fcda35c-fd5a-4189-bb34-ae08431ee5d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Работа'])[1]/preceding::div[2]</value>
-      <webElementGuid>b19244e7-f162-4441-8ac7-cf385d017ae9</webElementGuid>
+      <webElementGuid>5007f3cb-b954-4182-b798-b28d741d8ffe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отчеты'])[1]/preceding::div[2]</value>
-      <webElementGuid>467af1e0-7738-4000-94b1-1aa8823adfb2</webElementGuid>
+      <webElementGuid>2fea9498-d2eb-4981-ba6d-52d19d356909</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ЛИДЕР']/parent::*</value>
-      <webElementGuid>5db68105-fc87-4183-b0b6-20e3c9a77ebb</webElementGuid>
+      <webElementGuid>a6fea2dd-d9be-42bc-bbc1-a205dc3813de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/div/div</value>
-      <webElementGuid>53a2a46d-8c06-4e69-9dbb-cb6979defb9d</webElementGuid>
+      <webElementGuid>89131ce9-dbcc-4f58-b65b-d55ee6899dfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +111,6 @@
     ' or . = '
       ЛИДЕР
     ')]</value>
-      <webElementGuid>c4fda1e6-cee3-4d2a-973a-a08f4fa8cfb2</webElementGuid>
+      <webElementGuid>f2578787-125e-44b0-8321-954d5d870c46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

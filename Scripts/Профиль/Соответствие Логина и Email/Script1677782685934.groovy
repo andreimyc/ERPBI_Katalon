@@ -17,20 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Открыть браузер'
-WebUI.openBrowser('https://erpbi.hssys.ru/login')
-
-'Ввести логин'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), 'admin')
-
-'Ввести пароль'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), 'K79B3cyL9lJu}8z')
-
-'Нажать кнопку "Войти"'
-WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))
+'Пройти кейс Login'
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проверить элемент Логотип'
-WebUI.verifyElementPresent(findTestObject('Авторизация/Page_ERPBI/div_'), 0)
+WebUI.verifyElementPresent(findTestObject('Профиль/Page_ERPBI/div_'), 0)
+
+'Перейти на указанный URL'
+WebUI.navigateToUrl('https://erpbi.hssys.ru/profile')
+
+'Проверить текст логина'
+WebUI.verifyElementText(findTestObject('Профиль/Page_ERPBI/div_admin'), 'Логин: admin')
+
+'Проверить текст почты'
+WebUI.verifyElementText(findTestObject('Профиль/Page_ERPBI/div_adminyourdomain.com'), 'Почта: admin@yourdomain.com')
 
 'Закрыть браузер'
 WebUI.closeBrowser()

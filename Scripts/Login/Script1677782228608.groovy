@@ -29,9 +29,3 @@ WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'
 'Нажать кнопку "Войти"'
 WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))
 
-'Проверить элемент Логотип'
-WebUI.verifyElementPresent(findTestObject('Авторизация/Page_ERPBI/div_'), 0)
-
-'Закрыть браузер'
-WebUI.closeBrowser()
-
