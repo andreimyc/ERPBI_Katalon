@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Вход с корректными данными</name>
+   <name>Вход из Excel</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4a2ec52b-6bda-46e1-86e5-1e626d30b8fc</testCaseGuid>
+   <testCaseGuid>3a6ff416-5653-45dd-8c7b-e572691f1033</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9e1f5982-e0f1-4b99-a939-7ea079180d28</variableId>
+      <variableId>6e232fa1-04ac-4b4c-bdd2-a762eba67d99</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e4d0a2b1-6dba-498e-ae0e-ae908b095fad</variableId>
+      <variableId>6fa926c3-7d5c-4092-bf59-4f4f777b986c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9e1f5982-e0f1-4b99-a939-7ea079180d28</id>
+      <id>6e232fa1-04ac-4b4c-bdd2-a762eba67d99</id>
       <masked>false</masked>
-      <name>Username</name>
+      <name>login</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e4d0a2b1-6dba-498e-ae0e-ae908b095fad</id>
+      <id>6fa926c3-7d5c-4092-bf59-4f4f777b986c</id>
       <masked>false</masked>
-      <name>Password</name>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

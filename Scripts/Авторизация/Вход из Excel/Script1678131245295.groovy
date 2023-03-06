@@ -21,11 +21,17 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.url)
 
 'Ввести логин'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), GlobalVariable.login)
+WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), login)
 
 'Ввести пароль'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), GlobalVariable.password)
+WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), password)
 
 'Нажать кнопку "Войти"'
 WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))
+
+'Проверить элемент Логотип'
+WebUI.verifyElementPresent(findTestObject('Авторизация/Page_ERPBI/div_'), 0)
+
+'Закрыть браузер'
+WebUI.closeBrowser()
 

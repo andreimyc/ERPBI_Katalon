@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Открыть браузер'
-WebUI.openBrowser('https://erpbi.hssys.ru/login')
+WebUI.openBrowser(GlobalVariable.url)
 
 'Ввести логин'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), 'admin')
+WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'), GlobalVariable.login)
 
 'Ввести пароль'
-WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), 'K79B3cyL9lJu}8z')
+WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), GlobalVariable.password)
 
 'Нажать кнопку "Войти"'
 WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))

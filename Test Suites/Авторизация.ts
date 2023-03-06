@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Авторизация/Вход с корректными данными</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9e1f5982-e0f1-4b99-a939-7ea079180d28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4d0a2b1-6dba-498e-ae0e-ae908b095fad</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3826d161-1428-4413-911e-f1cae85287ad</guid>

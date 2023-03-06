@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Andrei\\AppData\\Local\\Temp\\Katalon\\Test Cases\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\\u041E\u0448\u0438\u0431\u043A\u0430 \u043F\u0440\u0438 \u043D\u0435 \u043A\u043E\u0440\u0440\u0435\u043A\u0442\u043D\u044B\u0445 \u0434\u0430\u043D\u043D\u044B\u0445\\20230301_230639\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Andrei\\AppData\\Local\\Temp\\Katalon\\20230306_224713\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Авторизация/Ошибка при не корректных данных', new TestCaseBinding('Test Cases/Авторизация/Ошибка при не корректных данных',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 'Пройти кейс Login'
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Проверить элемент Логотип'
+'Проверить логотип'
 WebUI.verifyElementPresent(findTestObject('Профиль/Page_ERPBI/div_'), 0)
 
 'Перейти на указанный URL'
