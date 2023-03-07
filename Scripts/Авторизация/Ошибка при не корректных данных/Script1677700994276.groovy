@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-23'
 WebUI.setText(findTestObject('Авторизация/Page_ERPBI/input__input-27'), '1')
 
 'Нажать кнопку "Войти"'
-WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'))
+WebUI.click(findTestObject('Авторизация/Page_ERPBI/button_'), FailureHandling.STOP_ON_FAILURE)
 
 'Проверить текст ошибки на соответствие'
 WebUI.verifyElementText(findTestObject('Авторизация/Page_ERPBI/div_Error'), 'Error: Неправильный логин или пароль')
